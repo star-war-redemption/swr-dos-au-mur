@@ -1,6 +1,6 @@
 \documentclass{jdrp}
 
-\bibliography{dos-au-muur/references} 
+\bibliography{references} 
 
 \newcommand*{\crg}{{\aurebesh\Large \$}} % Symbol for Galactic Credits
 
@@ -28,9 +28,9 @@
 	%\hspace*{\vfill}
 
 	\noindent\makebox[\textwidth]{
-		\includegraphics[width=\paperwidth]{_img/cover-bg.png}}
+		\includegraphics[width=\paperwidth]{swr-class/_img/cover-bg.png}}
 	\begin{tikzpicture}[overlay]
-		\node[minimum width=180pt,minimum height=180pt, rotate=30] at (15,11){\includegraphics[width=180pt]{_img/dos-au-muur/talisman.png}};
+		\node[minimum width=180pt,minimum height=180pt, rotate=30] at (15,11){\includegraphics[width=180pt]{_img/talisman.png}};
 	\end{tikzpicture}}
 	\end{titlepage}
 
@@ -39,10 +39,10 @@
 	
 	\begin{wrapfigure}{R}{180pt}
 		\centering
-		\includegraphics[width=180pt]{_img/dos-au-muur/talisman.png}
+		\includegraphics[width=180pt]{_img/talisman.png}
 		\caption{\label{fig:talisman-de-muur}Talisman de Muur}
 		\vspace{1\baselineskip}
-		\includegraphics[width=180pt]{_img/dos-au-muur/karness-muur.png}
+		\includegraphics[width=180pt]{_img/pnjs/karness-muur.png}
 		\caption{\label{fig:karness-muur}Karness Muur}
 	\end{wrapfigure}
 	
@@ -59,12 +59,12 @@
 
 	\twocolumn
 
-	\include{dos-au-muur/scenars/DaM-01.Sauvetage-du-Pelican}
-	\include{dos-au-muur/scenars/DaM-02.Les-bas-fonds-de-Taris}
-	\include{dos-au-muur/scenars/DaM-03.Laboratoire-de-Pulsipher}
-	\include{dos-au-muur/scenars/DaM-04.Cest-dans-la-boite}
-	\include{dos-au-muur/jokers}
-	\include{dos-au-muur/bestiaire}
+	\include{tex/scenars/DaM-01.Sauvetage-du-Pelican}
+	\include{tex/scenars/DaM-02.Les-bas-fonds-de-Taris}
+	\include{tex/scenars/DaM-03.Laboratoire-de-Pulsipher}
+	\include{tex/scenars/DaM-04.Cest-dans-la-boite}
+	\include{tex/jokers}
+	\include{tex/bestiaire}
 
 	\onecolumn
 	\nocite{*}
