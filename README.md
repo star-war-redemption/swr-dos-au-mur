@@ -16,10 +16,23 @@ On trouve beaucoup d’informations sur cet artéfact sur HoloNet et je me suis 
 ![image](https://git.framasoft.org/sw-redemption/latex-swr-class/raw/master/_img/wtfpl-badge.png)
 
 ## Contributions
+
+### Pré-requis LaTeX
+Avant toutes chose, il faut installer XeLaTeX et quelques dépendances pour pouvoir compiler :
+
+```
+# apt install --no-install-recommends gv texlive-base texlive-bibtex-extra texlive-extra-utils texlive-font-utils texlive-fonts-recommended texlive-lang-french texlive-latex-extra texlive-latex-recommended texlive-pictures texlive-xetex latexmk lmodern biber 
+```
+
 ### Clone
 Le projet utilise un sous-module pour importer le style.
 
-```git clone --recursive git@framagit.org:sw-redemption/swr-dos-au-mur.git```
+```
+git clone --recursive git@framagit.org:sw-redemption/swr-dos-au-mur.git
+```
 
 ### Build
-```latexmk -f -r swr-class/latexmkrc ```
+
+```
+latexmk -f -r swr-class/latexmkrc 
+```
