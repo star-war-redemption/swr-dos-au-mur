@@ -10,9 +10,15 @@ compile:
   stage: build
   script:
     - latexmk -f -r swr-class/latexmkrc || true
+  artifacts:
+    expire_in: 2 minute
+    paths:
+      - "build/dos-au-muur.pdf"
 
 deploy-SNAPSHOT:
   stage: deploy
+  variables:
+    GIT_STRATEGY: clone
   script:
     - mv "build/dos-au-muur.pdf" "SWR-Dos au Muur.pdf"
 
@@ -25,6 +31,8 @@ deploy-SNAPSHOT:
 
 deploy-RELEASE:
   stage: deploy
+  variables:
+    GIT_STRATEGY: clone
   only:
     - tags
   script:

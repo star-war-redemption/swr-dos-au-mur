@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="32" height="128" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" source="ground.tsx"/>
+ <tileset firstgid="442" source="trees.tsx"/>
+ <tileset firstgid="568" source="onject.tsx"/>
+ <tileset firstgid="652" source="cliff.tsx"/>
+ <layer name="eau" width="32" height="128">
+  <data encoding="base64" compression="zlib">
+   eJztzrENACAMA8EMxf6z0SJEQxGl8J3k+l0FAP3Wtcl2Wv/1YUJ6//ygr6+vr6+vr5/SBwAAAAAAAAAAAADgzwYL7Qwx
+  </data>
+ </layer>
+ <layer name="terre" width="32" height="128">
+  <data encoding="base64" compression="zlib">
+   eJzt0jEKwkAUhOGIhahXEOMVxOOonZ0KYqeVCppOK/W6TiDCsgR9CewG8f9gYIsks3m8JAEA/KN2K2466hwpPWUSuf/dnRs28O8DZ+6p0nXuMNV5VjHziv8w1vN95w7uDDY6L5WVsjaetzVm6N4h9foPylE5Gc91+v07uP135aE8jee6/e4uxJi/v1v53pT1h5p//u2dslD2xXtl/aHmn3/7WvTfPvSHmv9Zz12cZJHnb92/Jvffn5ElmbHfsv8hY9n/0P3f9j9kLPsfO/TTTz8AAAAAAAAAAAAAAAAAAAAA4Fe8ACXjaKE=
+  </data>
+ </layer>
+ <layer name="auteurs" width="32" height="128">
+  <data encoding="base64" compression="zlib">
+   eJzt0VERABAUAEGjfxgNJCABCZQghWfGboH7uJQA+FXJf/ervr6+vr7+Ze20e2B/nPYM7K/g9wAAAAAAAAAAAAAAAK/bZKAPew==
+  </data>
+ </layer>
+ <layer name="arbres" width="32" height="128">
+  <data encoding="base64" compression="zlib">
+   eJzt1UtOwlAARuHbIlsQUFiBgsJUEplCAokMhAQGDFypCltAZQu8lsBZACEE0huC50vOpGn7t+mgIUiSrtFnEsIXfdOUZknc/Tl7P/RLf7SIvL9kb0Vr2tA28n6ShpBSjm4on8bdv2WvQEUq0V3k/Qf2HqlKNXqKvC9J+h8mGf9f3s68/z3Xl6ly4D6nbPSPvOaZ8+rUuKD/8AvP0qT3jHul1p73bnOsQx8Z16Xenv0Bx4YRvseIjfEFfXdJkiRJkiRJkiRJkiRJkiRJ0vF26NwmDg==
+  </data>
+ </layer>
+</map>
