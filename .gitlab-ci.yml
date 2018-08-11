@@ -14,30 +14,42 @@ compile:
     expire_in: 2 minute
     paths:
       - "build/dos-au-muur.pdf"
+      - "_img/places/monolithe.png"
+      - "_img/venator-plan.png"
+      - "tex/R4-3D.pdf"
+      - "LICENSE"
 
 deploy-SNAPSHOT:
   stage: deploy
   variables:
-    GIT_STRATEGY: clone
+    GIT_STRATEGY: none
   script:
     - mv "build/dos-au-muur.pdf" "SWR-Dos au Muur.pdf"
+    - mv _img img
+    - mkdir fiches && mv "tex/R4-3D.pdf" "fiches/R4-3D.pdf"
 
   artifacts:
     expire_in: 1 week
     name: "SWR-Dos au Muur SNAPSHOT"
     paths:
       - "SWR-Dos au Muur.pdf"
+      - "img"
+      - "fiches"
   allow_failure: true
 
 deploy-RELEASE:
   stage: deploy
   variables:
-    GIT_STRATEGY: clone
+    GIT_STRATEGY: none
   only:
     - tags
   script:
       - mv "build/dos-au-muur.pdf" "SWR-Dos au Muur v$CI_COMMIT_TAG.pdf"
+      - mv _img img
+      - mkdir fiches && mv "tex/R4-3D.pdf" "fiches/R4-3D.pdf"
   artifacts:
     name: "SWR-Dos au Muur v$CI_COMMIT_TAG"
     paths:
       - "SWR-Dos au Muur v$CI_COMMIT_TAG.pdf"
+      - "img"
+      - "fiches"
