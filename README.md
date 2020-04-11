@@ -1,7 +1,7 @@
 # Dos Au Muur - Campagne Star Wars Redemption
 
 ## Synopsys
-Cette campagne est écrite initialement pour [Star Wars Redemption](https://github.com/Marthym/jdrp-sw-redemption) mais un scénar reste un scénar et il est jouable dans n’importe quel univers de Star Wars.
+Cette campagne est écrite initialement pour [Star Wars Redemption](https://swr.ght1pc9kc.fr/categories/livre-de-base/) mais un scénar reste un scénar et il est jouable dans n’importe quel univers de Star Wars.
 
 L’idée était de faire une campagne d’introduction avec des personnages partant de rien. Les joueurs commencent Novice et n’ont pas besoin d’historique complexe et élaboré (bien que cela ne soit pas interdit bien sûr). De cette façon, les personnages devraient être assez vite fait. Et elle est adaptable aussi bien avec des joueurs orienté Alliance Rebelle que Empire. Dans les deux cas, l’objectif sera le même mais les dessains changeront.
 
@@ -13,7 +13,7 @@ On trouve beaucoup d’informations sur cet artéfact sur HoloNet et je me suis 
 
 
 ## License
-![image](https://git.framasoft.org/sw-redemption/latex-swr-class/raw/master/_img/wtfpl-badge.png)
+![image](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png)
 
 ## Contributions
 
@@ -28,7 +28,7 @@ Avant toutes chose, il faut installer XeLaTeX et quelques dépendances pour pouv
 Le projet utilise un sous-module pour importer le style.
 
 ```
-git clone --recursive git@framagit.org:sw-redemption/swr-dos-au-mur.git
+git clone --recursive https://github.com/star-war-redemption/swr-dos-au-mur.git
 ```
 
 ### Build
